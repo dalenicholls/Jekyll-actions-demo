@@ -3,7 +3,7 @@ plugins:
   - jekyll-remote-theme
 
 # Specify the theme repo
-remote_theme: pmarsceill/just-the-docs
+remote_theme: just-the-docs/just-the-docs
 
 # Optional site settings for the theme
 title: "Jekyll Actions Demo"
