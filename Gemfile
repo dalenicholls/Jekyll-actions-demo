@@ -1,9 +1,11 @@
 source 'https://rubygems.org'
 
-gem "jekyll", "~> 4.2"
+gem "jekyll", "~> 4.3.2"
 
-gem "minima"   # or any other theme
+gem "github-pages"
 
 group :jekyll_plugins do
   gem "jekyll-timeago", "~> 0.13.1"
 end
+
+gem "jekyll-remote-theme"
