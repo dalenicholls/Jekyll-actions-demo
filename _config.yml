@@ -1,3 +1,11 @@
-theme: minima
+# Add the plugin
+plugins:
+  - jekyll-remote-theme
 
+# Specify the theme repo
+remote_theme: pmarsceill/just-the-docs
+
+# Optional site settings for the theme
 title: "Jekyll Actions Demo"
+description: >- # this means "folded text"
+  Example site using Just the Docs theme via GitHub Actions
